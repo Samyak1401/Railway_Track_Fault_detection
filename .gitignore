@@ -27,7 +27,7 @@ saved_model/
 model_config.json
 
 # ── Dataset images (large; host separately e.g. Kaggle / Drive) ──
-dataset/
+
 
 # ── OS / IDE ─────────────────────────────────────────────────
 .DS_Store
