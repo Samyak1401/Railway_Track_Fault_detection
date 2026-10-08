@@ -1,0 +1,43 @@
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environment ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Jupyter ──────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── ML model files (too large for GitHub; use Git LFS or cloud storage) ──
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.pb
+saved_model/
+model_config.json
+
+# ── Dataset images (large; host separately e.g. Kaggle / Drive) ──
+dataset/
+
+# ── OS / IDE ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs & temp ──────────────────────────────────────────────
+*.log
+*.tmp
+logs/
